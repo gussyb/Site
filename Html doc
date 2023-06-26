@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Professional Website</title>
+    <style>
+        /* Basic CSS reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Typography */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Consistent layout */
+        header, section, footer {
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        /* Colors and Imagery */
+        body {
+            background-color: #f1f1f1;
+        }
+
+        header, footer {
+            background-color: #333;
+            color: #fff;
+        }
+
+        section {
+            background-color: #fff;
+        }
+
+        /* Simplicity and Functionality */
+        nav ul {
+            list-style-type: none;
+            padding: 20px 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Professional Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>This is where you'd introduce yourself and share some background information.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>This is where you'd share some of the projects you've worked on.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>This is where you'd provide some way for people to get in touch with you.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 My Professional Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
